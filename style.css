@@ -1,0 +1,631 @@
+/*
+	Theme Name: Travel Template
+	Theme URI: http://wp.code-way.com
+	Description: PSD to Wordpress 
+	Version: 1.0
+	Author: Anna Trzeciak 
+	Author URI: https://code-way.com
+	Tags: PSD, HTML5, CSS3
+
+*/
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-SemiBoldItalic.woff2') format('woff2'),
+    url('fonts/Raleway-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-BoldItalic.woff2') format('woff2'),
+    url('fonts/Raleway-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('fonts/DroidSerif-BoldItalic.woff2') format('woff2'),
+    url('fonts/DroidSerif-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Light.woff2') format('woff2'),
+    url('fonts/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Regular.woff2') format('woff2'),
+    url('fonts/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('fonts/DroidSerif-Italic.woff2') format('woff2'),
+    url('fonts/DroidSerif-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-SemiBold.woff2') format('woff2'),
+    url('fonts/Raleway-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-ThinItalic.woff2') format('woff2'),
+    url('fonts/Raleway-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Bold.woff2') format('woff2'),
+    url('fonts/Raleway-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-ExtraBold.woff2') format('woff2'),
+    url('fonts/Raleway-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-ExtraLightItalic.woff2') format('woff2'),
+    url('fonts/Raleway-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-Italic.woff2') format('woff2'),
+    url('/fonts/Raleway-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Black.woff2') format('woff2'),
+    url('fonts/Raleway-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('fonts/DroidSerif.woff2') format('woff2'),
+    url('fonts/DroidSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-LightItalic.woff2') format('woff2'),
+    url('/fonts/Raleway-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('fonts/DroidSerif-Bold.woff2') format('woff2'),
+    url('fonts/DroidSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Medium.woff2') format('woff2'),
+    url('fonts/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-MediumItalic.woff2') format('woff2'),
+    url('fonts/Raleway-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-ExtraBoldItalic.woff2') format('woff2'),
+    url('fonts/Raleway-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-BlackItalic.woff2') format('woff2'),
+    url('fonts/Raleway-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/fonts/Raleway-ExtraLight.woff2') format('woff2'),
+    url('fonts/Raleway-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Thin.woff2') format('woff2'),
+    url('fonts/Raleway-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+
+*,
+*:after,
+*:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* html element 62.5% font-size for REM use */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #444;
+}
+
+/* clear */
+
+.clear:before,
+.clear:after {
+    content: ' ';
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #444;
+}
+
+a:focus {
+    outline: 0;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+input:focus {
+    outline: 0;
+    border: 1px solid #04A4CC;
+}
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+/* wrapper */
+
+.wrapper {
+    max-width: 1280px;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* header */
+
+.header {}
+
+/* logo */
+
+.logo {}
+
+.logo-img {}
+
+/* nav */
+
+.nav {}
+
+/* sidebar */
+
+.sidebar {}
+
+/* footer */
+
+.footer {}
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+@font-face {
+    font-family: 'Font-Name';
+    src: url('fonts/font-name.eot');
+    src: url('fonts/font-name.eot?#iefix') format('embedded-opentype'),
+    url('fonts/font-name.woff') format('woff'),
+    url('fonts/font-name.ttf') format('truetype'),
+    url('fonts/font-name.svg#font-name') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {}
+
+@media only screen and (min-width:480px) {}
+
+@media only screen and (min-width:768px) {}
+
+@media only screen and (min-width:1024px) {}
+
+@media only screen and (min-width:1140px) {}
+
+@media only screen and (min-width:1280px) {}
+
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:144dpi) {}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+    background: #04A4CC;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-webkit-selection {
+    background: #04A4CC;
+    color: #FFF;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #04A4CC;
+    color: #FFF;
+    text-shadow: none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #FFF;
+    border: 1px solid #F0F0F0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+.sticky {}
+
+.bypostauthor {}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    @page {
+        margin: 0.5cm;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*------------------------------------*\
+    my styles
+\*------------------------------------*/
+
+body {
+    min-height: 300vh;
+
+    font-family: "Raleway";
+    background-image: url(img/backgound-page.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+font-size: 14px;
+
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1200
+
+
+}
+
+nav > .menu {
+    display: inline;
+}
+
+nav a {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    /*    text-transform: uppercase;*/
+}
+
+a:hover,
+.current_page_item a {
+    color: #ad7835;
+    text-decoration: none
+}
+
+.menu,
+.menu li,
+.menu ul {
+    display: inline-block;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.nav-brand,
+h1 {
+    font-family: "Droid Serif";
+}
+header{
+    padding-bottom: 100px;
+}
+.header-content {
+    margin: 20vh auto;
+
+  
+    border: 5px solid #ad7835;
+    padding: 80px 30px;
+    text-align: center;
+}
+
+.header-content h1{
+   
+  font-size: 120px;
+ 
+  color: rgb(255, 255, 255);
+ 
+margin: 15px 0;
+;}
+.header-content h4, .header-content h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header-content h3{
+    color: #ad7835;
+}
+.header-content h4{
+    color: #fff;
+}
+.about-me-short{
+
+    background: #373737;
+
+  box-shadow: 0px 0px 80px 0px rgba(43, 43, 43, 0.3);
+
+
+    
+}
+.about-me-short .description{
+padding: 70px;    
+}
+
+.about-me-short h4{
+     color: rgb(173, 120, 53);
+    font-family: "Droid Serif";
+    font-size: 46px;
+}
+.about-me-short p{
+  font-size: 16px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-me-short img{
+    margin-right: auto;margin-left: auto;
+    transform: scale(1.5);
+}
+.btn-more{
+   border: 1px solid rgb(173, 120, 53);
+    color: rgb(173, 120, 53);
+    text-transform: uppercase;
+    padding: 15px 25px;
+    font-weight: bold;
+       
+    margin-bottom: 20px;
+    display: inline-block;
+    transition: .3s;
+}
+.btn-more:hover{
+    color: #000;
+    background-color: rgb(173, 120, 53);
+}
